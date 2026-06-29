@@ -2,9 +2,48 @@
 theme: dracula
 comark: true
 transition: slide-up
+layout: default
 ---
 
-# Welcome to Slidev
+<div class="flex gap-12 items-center h-full">
+  <div class="text-left">
+    <h1 class="">Reconhecimento de Voz</h1>
+    <h2 class="text-sky-500">& Síntese de Fala (TTS)</h2>
+    <span>Inteligência Artificial</span>
+  </div>
+  <div>
+    <p>Alunos:</p>
+    <ul>
+      <li>Andrey Garcia dos Santos</li>
+      <li>Henrique Maia Cardosa</li>
+      <li>Graziela Torres</li>
+      <li>João Miguel de Castro Menna</li>
+      <li>Ricardo Gabriel Fialho Santos</li>
+      <li>Sophia Eggert Freire da Rocha</li>
+    </ul>
+  </div>
+</div>
+
+<style>
+  h2 {
+    color: #38bdf8 !important;
+  }
+</style>
+
+---
+transition: slide-up
+---
+
+# Roteiro
+
+- Motivação e aplicações
+- O que é ASR - Reconhecimento Automático de Fala
+- Processamento do sinal de áudio
+- Modelos e arquiteturas (HMM, CTC, Transformers)
+- O que é TTS - Síntese de Fala
+- Modelos neurais de TTS (Tacotron, FastSpeech)
+- Clonagem de voz e desafios éticos
+- Desafios técnicos e tendências
 
 ---
 transition: slide-up
@@ -16,30 +55,11 @@ transition: slide-up
 
 ---
 transition: slide-up
-level: 2
 ---
 
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
-
-## Keyboard Shortcuts
-
-|                                                     |                             |
-| --------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                       | previous slide              |
-| <kbd>down</kbd>                                     | next slide                  |
-
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
+<div class="relative size-full">
+  <iframe class="absolute inset-0 w-full h-full" src="http://localhost:3000"></iframe>
+</div>
 
 ---
 layout: two-cols
