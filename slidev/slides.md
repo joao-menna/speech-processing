@@ -14,6 +14,7 @@ layout: default
   <div>
     <p>Alunos:</p>
     <ul>
+      <li>Ana Luisa Milchert</li>
       <li>Andrey Garcia dos Santos</li>
       <li>Henrique Maia Cardosa</li>
       <li>Graziela Torres</li>
